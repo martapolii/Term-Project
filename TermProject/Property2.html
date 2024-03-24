@@ -4,50 +4,52 @@
   <head>
     <meta charset="utf-8">
     <title>Property 2</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
-    <div>
-
-      <header>
-        <h1>Marta's Marvelous Mansions</h1>
-      </header>
-
-      <nav>
-        <ul>
-          <li><a href="Home.html">Home</a> </li>
-          <li><a href="ActiveListings.html">Active Listings</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="SiteMap.html">Sitemap</a></li>
-        </ul>
-      </nav>
-
+    <div class = wrapper>
+    <header>
+      <div class="handlogo">
+        <img class="hlogo" src="Images/logo.png" alt="logo">
+        <h1 class="htext">MARTA'S MARVELOUS MANSIONS</h1>
+      </div> 
+    </header>
+    <nav>
+      <a href="Home.html">HOME</a> &nbsp; &nbsp; &nbsp;
+      <a href="ActiveListings.html">ACTIVE LISTINGS</a> &nbsp; &nbsp; &nbsp;
+      <a href="Contact.html">CONTACT</a> &nbsp; &nbsp; &nbsp;
+      <a href="SiteMap.html">SITEMAP</a> &nbsp; &nbsp; &nbsp;
+    </nav>
+    <br>
+    <div class="columns">
       <!--Agent photo + main contact information-->
+      <div>
       <aside> 
         <figure>
-          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent" style="width:100%">
+          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent">
             <br>
-            Phone: (647) 962 - 5119
+            Phone: (647) 123 - 4567
             <br>
             Email: 
             <a href="mailto:Marta@MarvelousMansions.ca">Marta@MarvelousMansions.ca</a>
         </figure>
       </aside>
-
-      <a href="ActiveListings.html">Back</a>
-
+      </div>
       <main>
+        <a class="backButton" href="ActiveListings.html">Back</a>
         <h2>Serene Sulani Oasis</h2>
-        <p>
           <img class="bigimage" src="Images/house2.png" alt="Photo of 201 Island Ave, Sulani">
-          <h3>201 Island Ave, Sulani</h3>
-          Escape to a world of serenity and seclusion with Serene Sulani Oasis, nestled on the tranquil shores of Sulani. Accessible only by boat, this island sanctuary beckons with its open-concept design, inviting the gentle ocean breeze to dance through its spacious interiors. Step outside onto expansive patios and breathe in the intoxicating scent of tropical blooms, as the azure waves kiss the shores of your private haven. Behold the breathtaking beauty of the coral reef just a stone's throw away, offering an underwater paradise for the adventurous soul. With vistas of both the endless ocean expanse and the majestic volcanic landscape of Sulani, surrender to the allure of island living at its finest.
-        </p>
+            <h3>201 Island Ave, Sulani</h3>
+              <p>
+                Located on the peaceful shores of Sulani, the <b>Serene Sulani Oasis</b> is the perfect place to escape to a world of peace and tranquility. This island sanctuary, which is only reachable by boat, has an airy open-concept layout that lets the soft sea breeze flow through its roomy interiors. Take in the enticing aroma of the ocean as you step outside onto large patios and watch the blue waves. <br><br> Admire the stunning nearby coral reef, which provides an unparalleled snorkelling experience. Give in to the charm of island living at its best with views of Sulani's breathtaking volcanic landscape and boundless ocean.
+              </p>
         <ul>
-          <li>Price: $1,500,000</li>
-          <li>Lot size: 2000 sq. ft.</li>
-          <li>Rooms: 2 bed, 2 bath</li>
+          <li>Price: <b>$1,500,000</b></li>
+          <li>Lot size: <b>2000 sq. ft.</b></li>
+          <li>Rooms: <b>2 bed, 2 bath</b></li>
+          <br>
           <li>Ammenities/Features:
             <ul>
               <li>Private dock</li>
@@ -59,8 +61,10 @@
             </ul>
           </li>  
         </ul>
+        <br>
+        <br>
         <!-- Images of home -->
-        <div class="grid">
+        <div class="inner-grid">
           <img src="Images/house2A.png" alt="Photo of the deck">
           <img src="Images/house2B.png" alt="Photo of the back of the house">
           <img src="Images/house2living.png" alt="Living Room">
@@ -72,11 +76,10 @@
           <img src="Images/house2F2.png" alt="Floor plan, floor 2">
         </div>
       </main> 
-
-      <footer>
-        <p> Copyright &copy; 2024. </p>
-      </footer>
-
+    </div> 
+    <footer>
+      <p><p><small><i>Copyright © Marta Polishchuk. 2024. Student #301432299. COMP213-402 Term Project</i></small></p></p>
+    </footer>
     </div>
   </body>
 </html>

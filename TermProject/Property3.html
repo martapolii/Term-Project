@@ -4,53 +4,55 @@
   <head>
     <meta charset="utf-8">
     <title>Property 3</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
-    <div>
-
-      <header>
-        <h1>Marta's Marvelous Mansions</h1>
-      </header>
-
-      <nav>
-        <ul>
-          <li><a href="Home.html">Home</a> </li>
-          <li><a href="ActiveListings.html">Active Listings</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="SiteMap.html">Sitemap</a></li>
-        </ul>
-      </nav>
-
+    <div class="wrapper">
+    <header>
+      <div class="handlogo">
+        <img class="hlogo" src="Images/logo.png" alt="logo">
+        <h1 class="htext">MARTA'S MARVELOUS MANSIONS</h1>
+      </div> 
+    </header>
+    <nav>
+      <a href="Home.html">HOME</a> &nbsp; &nbsp; &nbsp;
+      <a href="ActiveListings.html">ACTIVE LISTINGS</a> &nbsp; &nbsp; &nbsp;
+      <a href="Contact.html">CONTACT</a> &nbsp; &nbsp; &nbsp;
+      <a href="SiteMap.html">SITEMAP</a> &nbsp; &nbsp; &nbsp;
+    </nav>
+    <br>
+    <div class="columns">
       <!--Agent photo + main contact information-->
+      <div>
       <aside> 
         <figure>
-          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent" style="width:100%">
+          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent">
           <br>
-          Phone: (647) 962 - 5119
+          Phone: (647) 123 - 4567
           <br>
           Email: 
           <a href="mailto:Marta@MarvelousMansions.ca">Marta@MarvelousMansions.ca</a>
         </figure>
       </aside>
-
-      <a href="ActiveListings.html">Back</a>
-
+      </div>
       <main>
+        <a class="backButton" href="ActiveListings.html">Back</a>
         <h2>Majestic Windenburg Manor</h2>
-        <p>
           <img class="bigimage" src="Images/house3.png" alt="Photo of 3 Havensworth Lane, Windenburg">
-          <h3>3 Havensworth Lane, Windenburg</h3>
-          Embrace the grandeur of yesteryear with Majestic Windenburg Manor, a regal masterpiece reminiscent of a European castle. Adorned with a private winding driveway, elegant fountains, and stately columns, this sprawling estate exudes timeless sophistication from every angle. Step into a world of opulence as you wander through the grand halls, where a lavish dining room and sumptuous living spaces await your every whim. Beyond the confines of the manor, discover a veritable paradise – from meticulously landscaped gardens and verdant greenhouses to a charming hedge maze and pristine tennis courts. Set against a backdrop of towering forests and majestic mountains, this estate offers a glimpse into a bygone era of aristocratic splendor – where luxury and legacy intertwine seamlessly.
-        </p>
+            <h3>3 Havensworth Lane, Windenburg</h3>
+              <p>
+                <b>Majestic Windenburg Manor</b> is a regal masterpiece that evokes the grandeur of a European castle. Adorned with impressive columns, elegant fountains, and a private winding driveway, this expansive estate exudes timeless sophistication from every angle. Wander through the grand halls to enter an opulent world where grand living and dining rooms await you. <br> <br> Explore a true paradise outside the manor, complete with immaculate tennis courts, a charming hedge maze, and beautifully manicured gardens and greenhouses. This estate, which is surrounded by towering mountains and a tranquil forest, provides a window into a bygone era of aristocratic splendor, where luxury and legacy coexist peacefully.
+              </p>
         <ul>
-          <li>Price: $11,250,000</li>
-          <li>Lot size: 4 acres (Approxiametly 174,000 sq., ft).</li>
-          <li>Rooms: 4 bed, 3 bath</li>
+          <li>Price: <b>$11,250,000</b></li>
+          <li>Lot size: <b>4 acres</b> (Approxiametly 174,000 sq., ft).</li>
+          <li>Rooms: <b>4 bed, 3 bath</b></li>
+          <br>
           <li>Ammenities/Features:
             <ul>
-              <li>A team of Butlers</li>
+              <li>A team of dedicated Butlers</li>
               <li>Butlers Kicthen</li>
               <li>Exquisite landscaping</li>
               <li>Fountain in the front and back</li>
@@ -63,8 +65,10 @@
             </ul>
           </li>  
         </ul>
+        <br>
+        <br>
         <!-- Images of home -->
-        <div class="grid">
+        <div class="inner-grid">
           <img src="Images/house3A.png" alt="Drone shot of the Manor">
           <img src="Images/house3C.png" alt="Photo of the mountain view from the back porch">
           <img src="Images/house3D.png" alt="Photo of the Manor at night">
@@ -75,12 +79,11 @@
           <img src="Images/house3F2.png" alt="Floor plan, floor 2">
           <img src="Images/house3F3.png" alt="Floor plan, floor 3">
         </div>
-      </main>  
-
-      <footer>
-        <p> Copyright &copy; 2024. </p>
-      </footer> 
-
+      </main>
+    </div>  
+    <footer>
+        <p><p><small><i>Copyright © Marta Polishchuk. 2024. Student #301432299. COMP213-402 Term Project</i></small></p></p>
+    </footer> 
     </div>
   </body>
 </html>

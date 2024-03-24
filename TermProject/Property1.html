@@ -4,50 +4,52 @@
   <head>
     <meta charset="utf-8">
     <title>Property 1</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
-    <div>
-
-      <header>
-        <h1>Marta's Marvelous Mansions</h1>
-      </header>
-
-      <nav>
-        <ul>
-          <li><a href="Home.html">Home</a> </li>
-          <li><a href="ActiveListings.html">Active Listings</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="SiteMap.html">Sitemap</a></li>
-        </ul>
-      </nav>
-
+    <div class="wrapper">
+    <header>
+      <div class="handlogo">
+        <img class="hlogo" src="Images/logo.png" alt="logo">
+        <h1 class="htext">MARTA'S MARVELOUS MANSIONS</h1>
+      </div> 
+    </header>
+    <nav>
+      <a href="Home.html">HOME</a> &nbsp; &nbsp; &nbsp;
+      <a href="ActiveListings.html">ACTIVE LISTINGS</a> &nbsp; &nbsp; &nbsp;
+      <a href="Contact.html">CONTACT</a> &nbsp; &nbsp; &nbsp;
+      <a href="SiteMap.html">SITEMAP</a> &nbsp; &nbsp; &nbsp;
+    </nav>
+    <br>
+    <div class="columns">
       <!--Agent photo + main contact information-->
+      <div>
       <aside> 
         <figure>
-          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent" style="width:100%">
+          <img src="Images/marta6.png" alt="Photo of Marta, Real Estate Agent" >
           <br>
-          Phone: (647) 962 - 5119
+          Phone: (647) 123 - 4567
           <br>
           Email: 
           <a href="mailto:Marta@MarvelousMansions.ca">Marta@MarvelousMansions.ca</a>
         </figure>
       </aside>
-
-      <a href="ActiveListings.html">Back</a>
-
+      </div>
       <main>
+        <a class="backButton" href="ActiveListings.html">Back</a>
         <h2>Deluxe Del Sol Vista</h2>
-          <p>
-            <img class="bigimage" src="Images/house1.png" alt="Photo of 1721 Tollywood St, Del Sol Valley">
+          <img class="bigimage" src="Images/house1.png" alt="Photo of 1721 Tollywood St, Del Sol Valley">
             <h3>1721 Tollywood St, Del Sol Valley</h3>
-            Nestled amidst the rolling hills of Del Sol Valley, behold the epitome of contemporary luxury living – Deluxe Del Sol Vista. This palatial abode boasts not one, but two shimmering pools, beckoning you to plunge into opulence. With its avant-garde design, each room offers panoramic vistas of the bustling cityscape, ensuring that every moment is bathed in urban elegance. Tucked away in an exclusive gated community, revel in the freedom to host extravagant soirées and lively gatherings without disturbing the peace of neighboring estates. Immerse yourself in the rhythm of the city while cocooned in the serenity of your private retreat – where luxury knows no bounds.
-          </p>
+              <p>
+                <b>Deluxe Del Sol Vista</b> is the pinnacle of modern luxury living, perched amidst the undulating hills of Del Sol Valley. This magnificent home invites you to immerse yourself in luxury with its two glistening pools and incredible views of the city's skyline. Every room provides expansive views of the vibrant cityscape, and cutting edge smart-home technologies ensure the most seemless experience. <br><br>Nestled in a private gated community, enjoy the flexibility to throw grandiose parties and energetic get-togethers without upsetting the calm of nearby estates. Take in the beat of the city while ensconced in the tranquility of your own haven, where opulence has no boundaries.
+              </p>
         <ul>
-          <li>Price: $6,500,000</li>
-          <li>Lot size: 6075 sq. ft.</li>
-          <li>Rooms: 3 bed, 3 bath</li>
+          <li>Price: <b>$6,500,000</b></li>
+          <li>Lot size: <b>6075 sq. ft.</b></li>
+          <li>Rooms: <b>3 bed, 3 bath</b></li>
+          <br>
           <li>Ammenities/Features:
             <ul>
               <li>3 floors</li>
@@ -62,8 +64,10 @@
             </ul>
           </li> 
         </ul>
+        <br>
+        <br>
         <!-- Images of home -->
-        <div class="grid">
+        <div class="inner-grid">
           <img src="Images/house1pool.png" alt="Photo of the third floor infinity pool and view">
           <img src="Images/house1A.png" alt="Photo of the house">
           <img src="Images/house1B.png" alt="Photo of the second floor pool and view">
@@ -76,13 +80,12 @@
           <img src="Images/house1F1.png" alt="Floor plan, floor 1">
           <img src="Images/house1F2.png" alt="Floor plan, floor 2">
           <img src="Images/house1F3.png" alt="Floor plan, floor 3">
-        </div>            
+        </div>     
       </main>
-
-      <footer>
-        <p> Copyright &copy; 2024. </p>
-      </footer> 
-
     </div>
+      <footer>
+        <p><p><small><i>Copyright © Marta Polishchuk. 2024. Student #301432299. COMP213-402 Term Project</i></small></p></p>
+      </footer> 
+    </div>  
   </body>
 </html>
